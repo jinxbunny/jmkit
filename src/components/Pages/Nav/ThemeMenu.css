@@ -1,0 +1,62 @@
+.switch {
+    position: relative;
+    width: 100px;
+    height: 50px;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: #6996ae;
+    border: solid 2px white;
+}
+
+.switchCircle {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(255, 255, 255, 0.5);
+    border-radius: 50px;
+    top: 3px;
+    left: 3px;
+}
+
+
+#sunIcon {
+    width: 33px;
+    position: absolute;
+    top: 7px;
+    left: 6px;
+    z-index: 4;
+}
+
+#moonIcon {
+    width: 28px;
+    position: absolute;
+    top: 8.5px;
+    right: 9px;
+    z-index: 4;
+}
+
+.themeIcons {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.themeButton {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    text-decoration: none;
+    outline: none;
+    background: rgb(130, 130, 129);
+    border: solid 2px rgb(41, 41, 41);
+    border-radius: 50%;
+    box-shadow: 0px 4px 0px rgb(41, 41, 41);
+    cursor: pointer;
+}
+
+.themeButton:active {
+    box-shadow: 0px 2px 0px #222222;
+    position: relative;
+    top: 4px;
+}

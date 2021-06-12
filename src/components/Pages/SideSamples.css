@@ -1,0 +1,11 @@
+.miniGallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.storeSample img {
+    width: 200px;
+    padding: 10px;
+    filter: drop-shadow(0px 0px 6px rgb(128, 128, 128));
+}

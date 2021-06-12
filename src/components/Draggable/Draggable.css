@@ -1,0 +1,41 @@
+.draggableDefault {
+    width: 100px;
+    cursor: grab;
+    box-shadow: gray 0 0 0 20;
+}
+
+.draggableTest {
+    width: 50px;
+    cursor: grab;
+}
+
+.dragParent {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 700px;
+}
+
+.DragArea {
+    position: absolute;
+    background-image: url(https://images.unsplash.com/photo-1525938504296-69ed8897e4bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+    background-position: bottom;
+    background-size: cover;
+    width: 800px;
+    height: 600px;
+    background-color: khaki;
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width: 820px) {
+
+    .dragParent {
+        width: 100%;
+    }
+
+    .DragArea {
+        width: 100%;
+        margin: 0px;
+    }
+
+}

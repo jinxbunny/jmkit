@@ -1,0 +1,59 @@
+.headerWrapper {
+  position: relative;
+}
+
+#themeMenu {
+  position: absolute;
+  right: 0px;
+  width: 130px;
+  border-radius: 8px;
+  padding: 0.5rem;
+}
+
+.mainNav {
+  display: flex;
+  align-items: center;
+  background-color: #d5207a;
+  border-bottom: black solid 3px;
+  box-shadow: 0 4px 2px 0 rgba(0, 0,
+      0, 0.2), 0 10px 10px 0 rgba(0, 0, 0, 0.112);
+}
+
+#headerSize {
+  height: 90px;
+  transition: height 500ms ease-in-out;
+}
+
+#sprayLogo {
+  z-index: 1;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  user-select: none;
+  transition: opacity 500ms ease-in-out;
+}
+
+#welcomeImg {
+  z-index: 2;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  transform: rotate(-5deg);
+  user-select: none;
+  transition: transform 500ms ease-in-out, top 500ms ease-in-out, width 500ms ease-in-out;
+}
+
+#topPic {
+  width: 170px;
+  z-index: 2;
+  position: absolute;
+  right: 20px;
+  top: 0px;
+  user-select: none;
+}
+
+.sticky {
+  position: fixed;
+  top: 0px;
+  width: 100%
+}

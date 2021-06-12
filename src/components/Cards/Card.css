@@ -1,0 +1,59 @@
+.mainCard {
+  border: solid 2px silver;
+  border-radius: 14px;
+  font-family: 'Raleway', sans-serif;
+  padding: 8px;
+  height: 420px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.light .mainCard {
+  border: solid 2px #c0c0c0;
+  background-color: rgb(255, 255, 255, 0.5);
+
+  transition: background-color 500ms ease-in-out;
+}
+
+.dark .mainCard {
+  border: solid 2px rgb(72, 72, 72);
+  background-color: rgb(36, 36, 36, 0.5);
+  transition: background-color 500ms ease-in-out;
+}
+
+.cardLink {
+  font-size: large;
+  padding: 8px 14px;
+  background-color: var(--light-buttonBG);
+  border-radius: 50px;
+  color: white;
+  margin: 12px;
+}
+
+.light .cardLink {
+  background-color: var(--light-buttonBG);
+  font-size: 1.2vw;
+  transition: background-color 500ms ease-in-out;
+}
+
+.dark .cardLink {
+  background-color: var(--dark-buttonBG);
+  transition: background-color 500ms ease-in-out;
+}
+
+.cardThumb img {
+  border-radius: 12px;
+  width: 94%;
+}
+
+.bThumb {
+  width: 94%;
+  height: 140px;
+  border-radius: 12px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-color: beige;
+  margin: auto;
+}

@@ -1,0 +1,18 @@
+.viewer {
+  width: 80%;
+  border: 2px solid black;
+}
+
+.comicGallery {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.comicLink {
+  background-size: 200%;
+  margin: 10px;
+  width: 120px;
+  height: 120px;
+  border: 2px solid black;
+}

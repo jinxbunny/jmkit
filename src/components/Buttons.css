@@ -1,0 +1,21 @@
+.seeAllBtn {
+    background: var(--light-mainNav);
+    color: var(--light-text);
+    border-radius: 20px;
+}
+
+.commentCount {
+    margin-bottom: 20px;
+    font-family: "Raleway", sans-serif;
+    border-radius: 10px;
+    padding: 4px 8px;
+}
+
+.colorButton {
+    background-color:rgb(205, 146, 166);
+    color: white;
+    padding: 4px;
+    margin: 10px;
+    border-radius: 20px;
+}
+

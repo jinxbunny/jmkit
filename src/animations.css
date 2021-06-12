@@ -1,0 +1,23 @@
+#ghost {
+  position: absolute;
+  animation-duration: 10s;
+  animation-name: ghostMove;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.light #ghost {
+  opacity: 0;
+}
+
+.dark #ghost {
+  opacity: 0.25;
+}
+
+@keyframes ghostMove {
+  0%   {top: 150px; left: 20%; transform: rotate(20deg);}
+  25% {top:200px}
+  50%   {top: 150px;}
+  75% {top:200px}
+  100% {top: 150px; left: 80%; transform: rotate(-20deg);}
+}

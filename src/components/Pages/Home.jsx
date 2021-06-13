@@ -8,7 +8,7 @@ import Feature from '../Pages/Feature';
 const Home = () => {
   return (
     <div className="homeContainer">
-      <h1>Welcome Home!</h1>
+      <h1>Update Tests</h1>
       <Feature />
       <MainNews />
     </div>

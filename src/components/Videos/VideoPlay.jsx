@@ -30,7 +30,15 @@ const VideoPlay = () => {
                 />
                 <br />
                 <br />
-                <span className="tagsTitle">&#127775; Starring: &#127775;</span>
+                <span className="tagsTitle">
+                  <span role="img" aria-label="star">
+                    &#127775;
+                  </span>{' '}
+                  Starring:{' '}
+                  <span role="img" aria-label="star">
+                    &#127775;
+                  </span>
+                </span>
                 <div className="vidTags">
                   {filteredVideos.Characters.map((Vids) => (
                     <div key={Vids} className="basicText">

@@ -1,8 +1,8 @@
 import React from 'react';
-import { ReactComponent as Instagram_Icon } from '../../img/SVG/icons/Instagram.svg';
-import { ReactComponent as YouTube_Icon } from '../../img/SVG/icons/Youtube.svg';
-import { ReactComponent as FaceBook_Icon } from '../../img/SVG/icons/Facebook.svg';
-import { ReactComponent as Discord_Icon } from '../../img/SVG/icons/Discord.svg';
+import { ReactComponent as InstagramIcon } from '../../img/SVG/icons/Instagram.svg';
+import { ReactComponent as YouTubeIcon } from '../../img/SVG/icons/Youtube.svg';
+import { ReactComponent as FaceBookIcon } from '../../img/SVG/icons/Facebook.svg';
+import { ReactComponent as DiscordIcon } from '../../img/SVG/icons/Discord.svg';
 import { Link, useHistory } from 'react-router-dom';
 
 import './Pages.css';
@@ -50,7 +50,7 @@ function Footer() {
                 rel="noopener noreferrer"
               >
                 <div className="footerIcon">
-                  <Discord_Icon title="Discord" stroke-width="3" />
+                  <DiscordIcon title="Discord" stroke-width="3" />
                 </div>
               </a>
             </li>
@@ -61,7 +61,7 @@ function Footer() {
                 rel="noopener noreferrer"
               >
                 <div className="footerIcon">
-                  <YouTube_Icon stroke-width="3" />
+                  <YouTubeIcon stroke-width="3" />
                 </div>
               </a>
             </li>
@@ -73,7 +73,7 @@ function Footer() {
               >
                 {' '}
                 <div className="footerIcon">
-                  <Instagram_Icon stroke-width="3" />
+                  <InstagramIcon stroke-width="3" />
                 </div>
               </a>
             </li>
@@ -84,7 +84,7 @@ function Footer() {
                 rel="noopener noreferrer"
               >
                 <div className="footerIcon">
-                  <FaceBook_Icon stroke-width="3" />
+                  <FaceBookIcon stroke-width="3" />
                 </div>
               </a>
             </li>

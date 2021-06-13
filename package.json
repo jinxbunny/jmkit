@@ -21,6 +21,7 @@
     "react-draggable": "^4.4.3",
     "react-helmet": "^6.1.0",
     "react-icons": "^4.1.0",
+    "react-indiana-drag-scroll": "^2.0.1",
     "react-responsive": "^8.2.0",
     "react-router-dom": "^5.2.0",
     "react-router-hash-link": "^2.2.2",
